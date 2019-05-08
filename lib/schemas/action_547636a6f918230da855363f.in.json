@@ -1,0 +1,14 @@
+{
+    "type": "object",
+    "properties": {
+        "StationCodes": {
+            "required": true,
+            "type": "string",
+            "enum": [
+                "B03",
+                "All"
+            ],
+            "default": "B03"
+        }
+    }
+}
